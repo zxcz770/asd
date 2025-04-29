@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Новости по Dota 2 – актуальные события, турниры и обновления">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Новости по Dota 2</title>
+  <style>
+    /* Пример простого стиля, вдохновлённого dota2.ru */
+    body { font-family: Arial, sans-serif; background: #1a1a1a; color: #eee; margin: 0; }
+    header { background: #0d0d0d; padding: 20px; }
+    header h1 { margin: 0; color: #f1c40f; }
+    nav ul { list-style: none; padding: 0; margin: 10px 0; display: flex; flex-wrap: wrap; }
+    nav li { margin-right: 15px; }
+    nav a { color: #eee; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    main { padding: 20px; }
+    footer { background: #0d0d0d; padding: 10px; text-align: center; font-size: 0.9em; }
+    /* Стилизация новостного баннера */
+    .news-banner { background: url('images/dota2_banner.jpg') no-repeat center center; background-size: cover; height: 300px; margin-bottom: 20px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Новости по Dota 2</h1>
+    <nav>
+      <ul>
+         <li><a href="home.html">Главная</a></li>
+         <li><a href="about.html">О себе</a></li>
+         <li><a href="works.html">Мои работы</a></li>
+         <li><a href="files.html">Файлы</a></li>
+         <li><a href="contacts.html">Контакты</a></li>
+         <li><a href="links.html">Ссылки</a></li>
+         <li><a href="gallery.html">Галерея</a></li>
+         <li><a href="media.html">Медиа</a></li>
+         <li><a href="survey.html">Анкета</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="news-banner"></div>
+  
+  <main>
+    <article>
+       <h2>Последние новости и обзоры</h2>
+       <p>На нашем сайте публикуются <em>актуальные новости</em> о Dota 2, турнирах, патчах и обновлениях. Здесь вы найдете как аналитические материалы, так и анонсы предстоящих событий.</p>
+       <figure>
+          <img src="images/dota2_news.jpg" alt="Новости Dota 2" style="width:100%; max-width:600px;">
+          <figcaption>Обзор последних матчей и турниров</figcaption>
+       </figure>
+       <blockquote cite="https://www.dota2.com/">
+         <p>«Dota 2 объединяет миллионы поклонников по всему миру, создавая уникальное сообщество»</p>
+       </blockquote>
+    </article>
+    
+    <section>
+      <h2>Популярные темы</h2>
+      <ul>
+         <li>Турниры
+            <ul>
+               <li>Мировые чемпионаты</li>
+               <li>Региональные события</li>
+            </ul>
+         </li>
+         <li>Обновления и патчи
+            <ul>
+               <li>Новые герои</li>
+               <li>Балансировка</li>
+            </ul>
+         </li>
+      </ul>
+    </section>
+    
+    <aside>
+       <h3>Полезные ссылки</h3>
+       <ul>
+         <li><a href="https://www.dota2.com/">Официальный сайт Dota 2</a></li>
+         <li><a href="https://ru.dotabuff.com/">Dotabuff</a></li>
+         <li><a href="https://www.gosugamers.net/dota2">GosuGamers</a></li>
+       </ul>
+    </aside>
+  </main>
+  
+  <footer>
+     <p>&copy; 2025 Новости по Dota 2. Все права защищены.</p>
+  </footer>
+</body>
+</html>

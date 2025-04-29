@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<style>
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+body > *:last-child {
+    margin-top: auto;
+}
+</style>
+
+    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="description" content="Видео и аудио материалы по Dota 2">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Медиа</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: #1a1a1a;
+      color: #eee;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #0d0d0d;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 0;
+      color: #f1c40f;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    nav li {
+      margin-right: 15px;
+    }
+    nav a {
+      color: #eee;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+    }
+    footer {
+      background: #0d0d0d;
+      padding: 10px;
+      text-align: center;
+      font-size: 0.9em;
+    }
+    video, audio {
+      display: block;
+      margin-bottom: 20px;
+      background: #000;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Медиа-центр Dota 2</h1>
+    <nav>
+      <ul>
+         <li><a href="home.html">Главная</a></li>
+         <li><a href="gallery.html">Галерея</a></li>
+         <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section>
+      <h2>Видеообзоры и трейлеры</h2>
+      <video width="320" controls>
+         <source src="Dota 2 Gamescom Trailer.mp4" type="video/mp4">
+         Ваш браузер не поддерживает видео.
+      </video>
+      <h2>Аудио </h2>
+      <audio controls>
+         <source src="dota_2_01. DOTA2.mp3" type="audio/mpeg">
+         Ваш браузер не поддерживает аудио.
+      </audio>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 Новости по Dota 2.</p>
+  </footer>
+</body>
+</html>

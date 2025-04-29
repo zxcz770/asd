@@ -1,0 +1,75 @@
+
+/* Базовые стили для текста и фона */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #1a73e8;
+    text-align: center;
+}
+
+.container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px auto;
+    background-color: white;
+    max-width: 1200px;
+}
+
+/* Flexbox для основной навигации и футера */
+.nav, .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #eaeaea;
+    padding: 10px;
+}
+
+.nav a, .footer a {
+    padding: 10px 15px;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Grid для галереи */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Медиа-запросы для адаптивности */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .container {
+        padding: 10px;
+    }
+    .nav, .footer {
+        flex-direction: column;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1, h2, h3 {
+        font-size: 18px;
+    }
+    .container {
+        padding: 5px;
+    }
+}

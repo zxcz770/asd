@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Мои работы – проекты по веб-разработке">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мои работы</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: #1a1a1a;
+      color: #eee;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #0d0d0d;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 0;
+      color: #f1c40f;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    nav li {
+      margin-right: 15px;
+    }
+    nav a {
+      color: #eee;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+    }
+    footer {
+      background: #0d0d0d;
+      padding: 10px;
+      text-align: center;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Мои работы</h1>
+    <nav>
+      <ul>
+         <li><a href="home.html">Главная</a></li>
+         <li><a href="about.html">О себе</a></li>
+         <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section>
+      <h2>Проекты по веб-разработке</h2>
+      <p>Здесь я публикую примеры своих работ, выполненных в рамках курса по HTML5 и CSS3.</p>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 Новости по Dota 2.</p>
+  </footer>
+</body>
+</html>
